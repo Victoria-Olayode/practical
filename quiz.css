@@ -1,0 +1,187 @@
+@media screen and (max-width: 480px) {
+    #nav-bar a {
+        float: none;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 120px) {
+    #nav-bar {
+        font-size: x-large;
+    }
+}
+@media print {
+    img {
+        image-resolution: 300dpi;
+    }
+}
+
+
+.main-container {
+    padding: 10em;
+    border-radius: 20px;
+   
+}
+.nav-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+
+#nav-bar {
+    list-style-type: none;
+    display: inline-flex;
+    margin-left: 30px;
+    width: 100%;
+    align-items: center;
+    gap: 80px;
+    font-size: larger;
+    overflow: hidden;
+   
+}
+#nav-bar a {
+    text-decoration: none;
+    color: black;
+    justify-content: space-evenly;
+    width: 100%;
+}
+ 
+#nav-bar button {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    margin-left: 10%;
+    font-size: x-large;
+    width: 150px;
+}
+ 
+.logo {
+   
+    display: inline-flex;
+    align-items: start;
+}
+ 
+.logo img {
+    width: 50px;
+}
+.logo p{
+    font-size: 20px;
+}
+ 
+ .five img {
+    width: 50px;
+ }
+
+ .six img {
+    width: 50px;
+ }
+
+ .four img {
+    width: 120px;
+ }
+ 
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        "part1 part1 part1 part1-a part1-b"
+        "part1 part1 part1 part1-a part1-b"
+        "part2 part2 part5 part6 part6"
+        "part2 part2 part5 part6 part6"
+        "part3 part4 part5 part7 part7"
+        "part3 part4 part5 part7 part7"
+    ;
+    gap: 20px;
+    padding-top: 50px;
+   
+}
+ 
+.one {
+    grid-area: part1;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+ 
+}
+.one h1 {
+    font-size: 100px;
+}
+.one p{
+    font-size: 20px;
+}
+ 
+.two {
+    grid-area: part1-a;
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    align-items: center;
+}
+ 
+.three {
+    grid-area: part1-b;
+    background-color: white;
+    border-radius: 20px;
+    align-items: center;
+    padding: 20px;
+}
+ 
+.four {
+    grid-area: part2;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+   
+}
+.five {
+    grid-area: part3;
+    background-color: rgb(0, 89, 255);
+    border-radius: 20px;
+    padding: 20px;
+
+
+}
+
+
+.six {
+    grid-area: part4;
+    background-color: rgb(255, 123, 0);
+    border-radius: 20px;
+    padding: 20px;
+   
+}
+   
+.seven{
+    grid-area: part5;
+    background-color: rgb(128, 128, 128);
+    border-radius: 20px;
+    padding: 20px;
+}
+ 
+.inner-grid {
+    display: grid;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+ 
+ 
+.part5 button {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+}
+.eight{
+    grid-area: part6;
+    background-color: rgb(255, 123, 0);
+    border-radius: 20px;
+    padding: 20px;
+}
+.nine {
+    grid-area: part7;
+    background-color: rgb(0, 89, 255);
+    border-radius: 20px;
+    padding: 20px;
+}
